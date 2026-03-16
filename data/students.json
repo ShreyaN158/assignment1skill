@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cc5978e1-9e08-4eeb-993c-25adfe789a1a",
+    "name": "Rahul",
+    "email": "rahul@gmail.com",
+    "course": "ECE",
+    "year": 2,
+    "createdAt": "2026-03-16T06:02:14.453Z",
+    "updatedAt": "2026-03-16T06:23:57.626Z"
+  },
+  {
+    "id": "b760b8ac-c3e0-4300-a28e-6e63b2a9c6e7",
+    "name": "Ananya",
+    "email": "ananya@gmail.com",
+    "course": "ECE",
+    "year": 3,
+    "createdAt": "2026-03-16T06:25:48.041Z",
+    "updatedAt": "2026-03-16T06:25:48.041Z"
+  },
+  {
+    "id": "f9807d12-079c-4dc9-955d-d4a24100792c",
+    "name": "Arjun",
+    "email": "arjun2@gmail.com",
+    "course": "IS",
+    "year": 4,
+    "createdAt": "2026-03-16T06:25:57.044Z",
+    "updatedAt": "2026-03-16T06:30:04.557Z"
+  },
+  {
+    "id": "5f0a33d5-4ac7-4c71-8b70-fcb392aa82fc",
+    "name": "Arjun",
+    "email": "arjun@gmail.com",
+    "course": "Mechanical",
+    "year": 1,
+    "createdAt": "2026-03-16T06:26:11.063Z",
+    "updatedAt": "2026-03-16T06:27:48.331Z"
+  }
+]
