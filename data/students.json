@@ -1,12 +1,12 @@
 [
   {
     "id": "cc5978e1-9e08-4eeb-993c-25adfe789a1a",
-    "name": "Rahul",
-    "email": "rahul@gmail.com",
-    "course": "ECE",
-    "year": 2,
+    "name": "Rahul Sharma",
+    "email": "rahulsharma@gmail.com",
+    "course": "CSE",
+    "year": 3,
     "createdAt": "2026-03-16T06:02:14.453Z",
-    "updatedAt": "2026-03-16T06:23:57.626Z"
+    "updatedAt": "2026-03-17T10:34:28.616Z"
   },
   {
     "id": "b760b8ac-c3e0-4300-a28e-6e63b2a9c6e7",
@@ -34,5 +34,14 @@
     "year": 1,
     "createdAt": "2026-03-16T06:26:11.063Z",
     "updatedAt": "2026-03-16T06:27:48.331Z"
+  },
+  {
+    "id": "2caa73b6-555b-4484-852b-d179aefd6cfe",
+    "name": "Sheethal",
+    "email": "Sheethal@gmail.com",
+    "course": "AIML",
+    "year": 2,
+    "createdAt": "2026-03-17T10:37:50.531Z",
+    "updatedAt": "2026-03-17T10:37:50.531Z"
   }
 ]

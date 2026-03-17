@@ -45,8 +45,16 @@ function getStudent(req, res, id) {
 }
 
 async function createStudent(req, res) {
-
-    const body = await getRequestBody(req);
+    let body;
+    try {
+        body = await getRequestBody(req);
+    } catch (e) {
+        res.writeHead(400);
+        return res.end(JSON.stringify({
+            success: false,
+            message: 'Invalid JSON body'
+        }));
+    }
 
     const error = validateStudent(body);
 
@@ -79,8 +87,16 @@ async function createStudent(req, res) {
 }
 
 async function updateStudent(req, res, id) {
-
-    const body = await getRequestBody(req);
+    let body;
+    try {
+        body = await getRequestBody(req);
+    } catch (e) {
+        res.writeHead(400);
+        return res.end(JSON.stringify({
+            success: false,
+            message: 'Invalid JSON body'
+        }));
+    }
 
     const students = getAllStudents();
 
