@@ -6,15 +6,7 @@ const { randomUUID } = require('crypto');
 function getStudents(req, res) {
 
     let students = getAllStudents();
-const exists = students.find(s => s.email === body.email);
 
-if (exists) {
-    res.writeHead(400);
-    return res.end(JSON.stringify({
-        success:false,
-        message:"Email already exists"
-    }));
-}
     const url = new URL(req.url, `http://${req.headers.host}`);
     const year = url.searchParams.get('year');
 
